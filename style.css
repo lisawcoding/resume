@@ -10,6 +10,7 @@ body, html{
     line-height: 1.5em;
     font-family: 'Roboto Condensed','Microsoft JhengHei', sans-serif;
     scroll-behavior: smooth;
+    min-width: 390px;
 }
 .container{
     max-width:1170px;
@@ -33,7 +34,8 @@ nav .container{
     justify-content: space-between;
     position: relative;
     flex-wrap: wrap;
-    padding: 0;
+    padding: 0 1em;
+    box-sizing: border-box;
 }
 nav .hamburger{
     display: none;
@@ -98,6 +100,9 @@ nav li:hover{
 }
 .coverletter {
     padding-top: 76px;
+}
+.coverletter ul {
+    padding: 0;
 }
 h2{
     text-align: center; color:var(--white);
@@ -476,9 +481,9 @@ img[src*="github"]:hover {
     h3 {
         margin-top: 0;
     }
-    .language-container, .navItem-container .navItem {
-        padding: .5em 1em
-    }
+    /* .language-container, .navItem-container .navItem {
+        padding: 0 1em
+    } */
 }
 
 
