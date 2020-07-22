@@ -263,60 +263,6 @@
                         }
                 }
             ]
-        },
-        {
-            "year": {
-                "en": "project of the Year 2020",
-                "zh": "2020年作品"
-            },
-            "cards": [
-                {
-                    "img": "img/pokemon.jpg",
-                    "link": "https://lisawcoding.github.io/pokegame/",
-                    "en": 
-                        {   
-                            "title": "Pokemon Game",
-                            "des": [
-                                "use React.js, Hooks, Context, Router",
-                                "use PokéAPI to get pokemon data",
-                                "game and score sheet function",
-                                "style using SASS"
-                            ]
-                        },
-                    "zh":
-                        {
-                            "title": "寶可夢電腦遊戲",
-                            "des": [
-                                "用React.js, Hooks, Context, Router",
-                                "連接寶可夢API",
-                                "遊戲及遊戲單",
-                                "用SASS"
-                            ]
-                        }
-                },
-                {
-                    "img": "img/todolist.png",
-                    "link": "https://lisawcoding.github.io/TodoList/",
-                    "en": 
-                        {   
-                            "title": "Todo List",
-                            "des": [
-                                "use React.js, Hooks, Context, Router",
-                                "use firebase to store the data",
-                                "style using SASS"
-                            ]
-                        },
-                    "zh":
-                        {
-                            "title": "記事本",
-                            "des": [
-                                "React.js, Hooks, Context, Router",
-                                "SASS",
-                                "結合firebase存取資料"
-                            ]
-                        }
-                }
-            ]
         }
     ]
     
