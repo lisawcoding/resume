@@ -10,7 +10,6 @@ body, html{
     line-height: 1.5em;
     font-family: 'Roboto Condensed','Microsoft JhengHei', sans-serif;
     scroll-behavior: smooth;
-    min-width: 390px;
 }
 .container{
     max-width:1170px;
@@ -119,7 +118,8 @@ h2{
     margin-bottom: .5rem;
 }
 .id-photo {
-    width: 280px;
+    width: 60%;
+    max-width: 280px;
     float: left;
     margin: 0 1.5rem 0 0;
     position: relative;
@@ -403,8 +403,8 @@ img[src*="github"]:hover {
     animation: spin 2s linear infinite;
     margin-top: calc((100vh / 2 - 100px - 1em - 32px));
     width: 60%;
-    height: 60%;
-}
+    height:sdfdsaf60%;
+}sd
   @-webkit-keyframes spin {
     0% { -webkit-transform: rotate(0deg); }
     100% { -webkit-transform: rotate(360deg); }
@@ -426,9 +426,9 @@ img[src*="github"]:hover {
 
 
 @media only screen and (max-width: 790px){
-    section:not(.coverletter) {
+    /* section:not(.coverletter) {
         padding: 10px 20px !important;
-    }
+    } */
     .coverletter {
         padding-top: 50px;
     }
@@ -475,9 +475,9 @@ img[src*="github"]:hover {
         border-right:0;
         border-left:0;
     }
-    .id-photo {
+    /* .id-photo {
         width: 200px;
-    }
+    } */
     h3 {
         margin-top: 0;
     }
