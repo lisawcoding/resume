@@ -763,11 +763,12 @@ input:hover  {
     .cards-div {
         grid-template-columns: 1fr;
     }
-    .section:not(.contact) *[alt*="icon"] {
-        transform: scale(2);
+    .card {
+        box-shadow: 0px 1px 10px #999;
     }
-    .icon-div {
-        gap: 2.5em
+    .section:not(.contact) *[alt*="icon"] {
+        width: 3em;
+        margin: .5em;
     }
     .card .title-bar a{
         display: none;
