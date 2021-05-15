@@ -42,6 +42,7 @@
         "en": [
             "React: Hooks, Contect, Router...etc",
             "Strong in HTML5, CSS, JavaScript",
+            "Node.js, Express, Mongoose",
             "Proficien Responsive Website Deign, flex, grid",
             "CSS RWD：iframe, overlay, slider, autoplay, audio, fade, swiper, animation...etc",
             "git version control",
@@ -102,13 +103,19 @@
             "HTML",
             "CSS/SASS",
             "JavaScript",
+            "Node.js",
+            "MonogosDB",
+            "Express",
             "jQuery"
         ],
         "zh": [
-            "React.js",
+            "React",
             "HTML",
             "CSS/SASS",
             "JavaScript",
+            "Node.js",
+            "MonogosDB",
+            "Express",
             "jQuery"
         ]
     },
